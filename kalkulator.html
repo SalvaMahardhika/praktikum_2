@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Penjumlahan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Kalkulator Penjumlahan</h2>
+
+    <form id="calculatorForm">
+        <label for="num1">Angka 1:</label>
+        <input type="number" id="num1" name="num1" required>
+        <br>
+        <label for="num2">Angka 2:</label>
+        <input type="number" id="num2" name="num2" required>
+        <br>
+        <input type="button" value="+" onclick="calculateSum()">
+    </form>
+
+    <h3>Hasil:</h3>
+    <p id="result">-</p>
+
+    <script>
+        function calculateSum() {
+            var resultText = "Hello World";
+            document.getElementById('result').innerText = resultText;
+        }
+    </script>
+
+</body>
+</html>
